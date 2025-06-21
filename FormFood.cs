@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using System.Windows.Forms;
 
@@ -15,9 +15,12 @@ namespace ProjectCafe
 
 
             toolTip1.SetToolTip(btnRemoveFood, "Click to remove the selected item from the cart.");
+
+            
         }
 
         private void btnCart_Click(object sender, EventArgs e)
+
         {
 
             string food = GetSelectedFood();
